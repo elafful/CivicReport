@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453913330359",
+    "project_id": "civicreportgh",
+    "storage_bucket": "civicreportgh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453913330359:android:7fa6ac5c0d29022eae4332",
+        "android_client_info": {
+          "package_name": "com.civicreportgh.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAQCFtlVPKhohz0lnLM47l5q4wcE0OHkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

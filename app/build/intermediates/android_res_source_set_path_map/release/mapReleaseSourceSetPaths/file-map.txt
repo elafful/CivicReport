@@ -1,0 +1,10 @@
+com.civicreportgh.app-pngs-0 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\generated\res\pngs\release
+com.civicreportgh.app-res-1 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\generated\res\processReleaseGoogleServices
+com.civicreportgh.app-resValues-2 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\generated\res\resValues\release
+com.civicreportgh.app-updated_navigation_xml-3 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\generated\updated_navigation_xml\release
+com.civicreportgh.app-packageReleaseResources-4 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.civicreportgh.app-packageReleaseResources-5 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.civicreportgh.app-release-6 C:\Users\ELVIS\Downloads\CivicReportGH\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.civicreportgh.app-main-7 C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res
+com.civicreportgh.app-release-8 C:\Users\ELVIS\Downloads\CivicReportGH\app\src\release\res
+gradleHome-0 C:\Users\ELVIS\.gradle

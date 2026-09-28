@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_more.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_safety.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_safety.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_bg_edittext.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\bg_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_step_help.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_step_help.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_history.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_reports.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_ghana_pin.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_ghana_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_report_detail.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_report_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_report.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_notification.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_step_send.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_step_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_step_capture.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_step_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_sanitation.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_sanitation.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_splash_logo.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_splash_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_water.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_water.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_launcher_foreground_logo.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_launcher_foreground_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_arrow_step.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_arrow_step.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_bg_ghana_ribbon.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\bg_ghana_ribbon.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_splash_logo.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_splash_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_road.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_road.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_lightbulb.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_lightbulb.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_layout_empty_history.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\layout_empty_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_item_notification.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\item_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "com.civicreportgh.app-debug-57:/xml_file_paths.xml.flat",
+        "source": "com.civicreportgh.app-main-59:/xml/file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\layout_item_report.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\layout\\item_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_bg_accra_skyline.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\bg_accra_skyline.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\drawable_ic_camera.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\drawable\\ic_camera.xml"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-debug-57:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ELVIS\\.gradle\\daemon\\9.7.1\\com.civicreportgh.app-main-59:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

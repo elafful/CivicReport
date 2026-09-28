@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">453913330359</string>
+    <string name="google_api_key" translatable="false">AIzaSyBAQCFtlVPKhohz0lnLM47l5q4wcE0OHkM</string>
+    <string name="google_app_id" translatable="false">1:453913330359:android:7fa6ac5c0d29022eae4332</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBAQCFtlVPKhohz0lnLM47l5q4wcE0OHkM</string>
+    <string name="google_storage_bucket" translatable="false">civicreportgh.firebasestorage.app</string>
+    <string name="project_id" translatable="false">civicreportgh</string>
+</resources>

@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+    <!-- Independence Arch Silhouette -->
+    <path
+        android:pathData="M75,75h50v-25h-50z"
+        android:fillColor="#E0E0E0"/>
+    <path
+        android:pathData="M80,75h40v-20h-40z"
+        android:fillColor="#F5F5F5"/>
+    <path
+        android:pathData="M90,50l10,-10l10,10z"
+        android:fillColor="#E0E0E0"/>
+
+    <!-- Buildings -->
+    <path
+        android:pathData="M25,75h10v-20h-10z M40,75h15v-30h-15z M60,75h10v-15h-10z M130,75h20v-35h-20z M155,75h10v-25h-10z M170,75h15v-45h-15z"
+        android:fillColor="#EEEEEE"/>
+</vector>

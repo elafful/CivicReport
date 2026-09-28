@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">CivicReport GH</string>
+    <string name="home_subtitle">Take a photo, add details, and send it to the right institution.</string>
+    <string name="report_an_issue">Report an Issue</string>
+    <string name="report_issue">Report Issue</string>
+
+    <string name="roads_transport">Roads &amp; Transport</string>
+    <string name="sanitation_waste">Sanitation &amp; Waste</string>
+    <string name="streetlights">Streetlights</string>
+    <string name="water_sanitation">Water &amp; Sanitation</string>
+    <string name="public_safety">Public Safety</string>
+    <string name="other_issues">Other Issues</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="camera_permission_needed">Camera permission is needed to take a photo.</string>
+
+    <string name="report_activity_title">Review Report</string>
+    <string name="photo_of_issue">Photo of the reported issue</string>
+    <string name="category_label">Issue category</string>
+    <string name="will_be_sent_to">Will be sent to: %1$s %2$s</string>
+    <string name="verified_contact">✓ Verified</string>
+    <string name="contact_unverified_note">(⚠ Unverified contact)</string>
+    <string name="description_label">Description</string>
+    <string name="description_hint">Briefly describe the issue and its exact location (e.g. street name, landmark)</string>
+    <string name="description_required">Please add a short description</string>
+    <string name="add_my_location">Add My GPS Location (optional)</string>
+    <string name="location_attached">Location attached: %1$s</string>
+    <string name="location_unavailable">Could not get your location. Make sure GPS is on.</string>
+    <string name="send_report">Submit to Cloud</string>
+    <string name="send_via_email">Send via Email (Official)</string>
+    <string name="or_separator">— OR —</string>
+    <string name="submitting_report">Uploading report to cloud&#8230;</string>
+    <string name="report_success">Report submitted successfully! Thank you.</string>
+    <string name="report_error">Failed to upload: %1$s</string>
+    <string name="send_report_via">Send report via email</string>
+
+    <string name="email_subject">Civic Issue Report: %1$s</string>
+    <string name="email_body_intro">A citizen report has been generated using CivicReport GH.</string>
+    <string name="email_body_category">Category: %1$s</string>
+    <string name="email_body_description">Description:</string>
+    <string name="email_body_location">Reported GPS location: %1$s</string>
+    <string name="email_body_footer">Please find the attached photo of the issue. Thank you for looking into this.</string>
+    <string name="history_title">My Reports</string>
+    <string name="empty_history">You haven\'t submitted any reports yet.</string>
+    <string name="view_my_reports">View My Reports</string>
+
+    <!-- Splash Screen -->
+    <string name="tagline">See It • Report It • Make Ghana Better</string>
+    <string name="step_capture">Capture\nan Issue</string>
+    <string name="step_send">Send to the\nRight Institution</string>
+    <string name="step_help">Help Create\na Better Ghana</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_guest_user">Guest User</string>
+    <string name="profile_not_signed_in">Not signed in</string>
+    <string name="profile_sign_in_failed">Google sign in failed: %1$s</string>
+    <string name="profile_firebase_auth_failed">Firebase Auth failed</string>
+    <string name="profile_user_default">User</string>
+    <string name="default_web_client_id">453913330359-pgivv6e7q28sviopqp4054m75he3jidg.apps.googleusercontent.com</string>
+</resources>

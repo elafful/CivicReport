@@ -1,0 +1,403 @@
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:16: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk 34
+        ~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdk specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdk is
+   less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdk to the highest available value. Then
+   test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:11: Warning: A newer version of compileSdk than 34 is available: 37 [GradleDependency]
+    compileSdk 34
+    ~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:48: Warning: A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0 [GradleDependency]
+    implementation 'androidx.core:core-ktx:1.13.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:49: Warning: A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.8.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:50: Warning: A newer version of com.google.android.material:material than 1.12.0 is available: 1.14.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.12.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:51: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.2 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:52: Warning: A newer version of androidx.activity:activity-ktx than 1.9.0 is available: 1.13.0 [GradleDependency]
+    implementation 'androidx.activity:activity-ktx:1.9.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:55: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.8.5 is available: 2.11.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.5'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:56: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.5 is available: 2.11.0 [GradleDependency]
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.8.5'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:63: Warning: A newer version of com.google.android.gms:play-services-location than 21.3.0 is available: 21.4.0 [GradleDependency]
+    implementation 'com.google.android.gms:play-services-location:21.3.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\build.gradle:72: Warning: A newer version of org.jetbrains.kotlinx:kotlinx-serialization-json than 1.7.3 is available: 1.11.0 [NewerVersionAvailable]
+    implementation 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NewerVersionAvailable":
+   This detector checks with a central repository to see if there are newer
+   versions available for the dependencies used by this project. This is
+   similar to the GradleDependency check, which checks for newer versions
+   available in the Android SDK tools and libraries, but this works with any
+   MavenCentral dependency, and connects to the library every time, which
+   makes it more flexible but also much slower.
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\java\com\civicreportgh\app\FirebaseRepository.kt:16: Warning: Do not place Android context classes in static fields (static reference to FirebaseFirestore which has field context pointing to Context); this is a memory leak [StaticFieldLeak]
+    private val db = Firebase.firestore
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "StaticFieldLeak":
+   A static field will leak contexts.
+
+   Non-static inner classes have an implicit reference to their outer class.
+   If that outer class is for example a Fragment or Activity, then this
+   reference means that the long-running handler/loader/task will hold a
+   reference to the activity which prevents it from getting garbage
+   collected.
+
+   Similarly, direct field references to activities and fragments from these
+   longer running instances can cause leaks.
+
+   ViewModel classes should never point to Views or non-application Contexts.
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:91: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:126: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:161: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:196: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:231: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:266: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+                    <LinearLayout
+                     ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:71: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+        <LinearLayout
+         ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:98: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+        <LinearLayout
+         ~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:125: Warning: This tag and its children can be replaced by one <TextView/> and a compound drawable [UseCompoundDrawables]
+        <LinearLayout
+         ~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompoundDrawables":
+   A LinearLayout which contains an ImageView and a TextView can be more
+   efficiently handled as a compound drawable (a single TextView, using the
+   drawableTop, drawableLeft, drawableRight and/or drawableBottom attributes
+   to draw one or more images adjacent to the text).
+
+   If the two widgets are offset from each other with margins, this can be
+   replaced with a drawablePadding attribute.
+
+   There's a lint quickfix to perform this conversion in the Eclipse plugin.
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_history.xml:6: Warning: Possible overdraw: Root element paints background @color/background with a theme that also paints a background (inferred theme is @style/Theme.CivicReportGH) [Overdraw]
+    android:background="@color/background">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:6: Warning: Possible overdraw: Root element paints background @color/background with a theme that also paints a background (inferred theme is @style/Theme.CivicReportGH) [Overdraw]
+    android:background="@color/background">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_report.xml:6: Warning: Possible overdraw: Root element paints background @color/background with a theme that also paints a background (inferred theme is @style/Theme.CivicReportGH) [Overdraw]
+    android:background="@color/background">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:6: Warning: Possible overdraw: Root element paints background @color/white with a theme that also paints a background (inferred theme is @style/Theme_CivicReportGH) [Overdraw]
+    android:background="@color/white">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\colors.xml:19: Warning: The resource R.color.ghana_red appears to be unused [UnusedResources]
+    <color name="ghana_red">#CE1126</color>
+           ~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\colors.xml:20: Warning: The resource R.color.ghana_yellow appears to be unused [UnusedResources]
+    <color name="ghana_yellow">#FCD116</color>
+           ~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\drawable\ic_launcher_background.xml:2: Warning: The resource R.drawable.ic_launcher_background appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+^
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\drawable\ic_launcher_foreground.xml:2: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:14: Warning: The resource R.string.nav_home appears to be unused [UnusedResources]
+    <string name="nav_home">Home</string>
+            ~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:15: Warning: The resource R.string.nav_reports appears to be unused [UnusedResources]
+    <string name="nav_reports">Reports</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.nav_notifications appears to be unused [UnusedResources]
+    <string name="nav_notifications">Notifications</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:17: Warning: The resource R.string.nav_profile appears to be unused [UnusedResources]
+    <string name="nav_profile">Profile</string>
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:18: Warning: The resource R.string.take_photo appears to be unused [UnusedResources]
+    <string name="take_photo">Take a Photo</string>
+            ~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:19: Warning: The resource R.string.choose_from_gallery appears to be unused [UnusedResources]
+    <string name="choose_from_gallery">Choose from Gallery</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:37: Warning: The resource R.string.submitting_report appears to be unused [UnusedResources]
+    <string name="submitting_report">Uploading report to cloud&#8230;</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\values\strings.xml:50: Warning: The resource R.string.view_my_reports appears to be unused [UnusedResources]
+    <string name="view_my_reports">View My Reports</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests=true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests=true.
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\java\com\civicreportgh\app\HistoryAdapter.kt:36: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                binding.imageReport.setImageURI(android.net.Uri.parse(report.imageUrl))
+                                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:98: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:133: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:168: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:203: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:238: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:273: Warning: Missing contentDescription attribute on image [ContentDescription]
+                        <ImageView
+                         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:9: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:76: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:90: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:103: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:117: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:130: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\item_report.xml:15: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:33: Warning: Hardcoded string "Logo", should use @string resource [HardcodedText]
+                    android:contentDescription="Logo" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:38: Warning: Hardcoded string "CivicReport", should use @string resource [HardcodedText]
+                    android:text="CivicReport"
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:47: Warning: Hardcoded string "GH", should use @string resource [HardcodedText]
+                    android:text="GH"
+                    ~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:325: Warning: Hardcoded string "Background Skyline", should use @string resource [HardcodedText]
+        android:contentDescription="Background Skyline" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_main.xml:334: Warning: Hardcoded string "Background Ribbon", should use @string resource [HardcodedText]
+        android:contentDescription="Background Ribbon" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:32: Warning: Hardcoded string "CivicReport", should use @string resource [HardcodedText]
+            android:text="CivicReport"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:40: Warning: Hardcoded string "GH", should use @string resource [HardcodedText]
+            android:text="GH"
+            ~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:152: Warning: Hardcoded string "Accra Skyline", should use @string resource [HardcodedText]
+        android:contentDescription="Accra Skyline"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\layout\activity_splash.xml:161: Warning: Hardcoded string "Ghana Ribbon", should use @string resource [HardcodedText]
+        android:contentDescription="Ghana Ribbon"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\menu\bottom_nav_menu.xml:6: Warning: Hardcoded string "Home", should use @string resource [HardcodedText]
+        android:title="Home" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\menu\bottom_nav_menu.xml:10: Warning: Hardcoded string "Reports", should use @string resource [HardcodedText]
+        android:title="Reports" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\menu\bottom_nav_menu.xml:14: Warning: Hardcoded string "Notifications", should use @string resource [HardcodedText]
+        android:title="Notifications" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\ELVIS\Downloads\CivicReportGH\app\src\main\res\menu\bottom_nav_menu.xml:18: Warning: Hardcoded string "Profile", should use @string resource [HardcodedText]
+        android:title="Profile" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 64 warnings

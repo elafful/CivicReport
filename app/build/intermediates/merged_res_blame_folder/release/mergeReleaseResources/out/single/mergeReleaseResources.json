@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_bg_edittext.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_ghana_pin.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_ghana_pin.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/layout_activity_report.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/layout/activity_report.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_step_capture.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_step_capture.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_bg_accra_skyline.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/bg_accra_skyline.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_lightbulb.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_lightbulb.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_step_help.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_step_help.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_step_send.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_step_send.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/layout_activity_history.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_splash_logo.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_splash_logo.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_reports.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_reports.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/layout_activity_main.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/layout_item_report.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/layout/item_report.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_sanitation.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_sanitation.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_water.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_water.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_safety.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_safety.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_road.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_road.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/xml_file_paths.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_profile.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_camera.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/layout_activity_splash.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_bg_ghana_ribbon.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/bg_ghana_ribbon.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_notifications.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_notifications.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_launcher.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_home.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_arrow_step.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_arrow_step.xml"
+    },
+    {
+        "merged": "com.civicreportgh.app-release-50:/drawable_ic_more.xml.flat",
+        "source": "com.civicreportgh.app-main-51:/drawable/ic_more.xml"
+    }
+]

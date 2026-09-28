@@ -1,0 +1,23 @@
+<resources>
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="accent">#FFC107</color>
+
+    <!-- Category Colors -->
+    <color name="cat_roads">#1565C0</color>
+    <color name="cat_sanitation">#2E7D32</color>
+    <color name="cat_streetlights">#FBC02D</color>
+    <color name="cat_water">#0288D1</color>
+    <color name="cat_safety">#D32F2F</color>
+    <color name="cat_other">#7B1FA2</color>
+
+    <color name="background">#F8F9FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Ghana Flag Colors -->
+    <color name="ghana_red">#CE1126</color>
+    <color name="ghana_yellow">#FCD116</color>
+    <color name="ghana_green">#006B3F</color>
+    <color name="text_gray">#555555</color>
+</resources>
